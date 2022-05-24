@@ -14,3 +14,12 @@
     bottom: 0;
     z-index: -1;
 }
+
+#about-us {
+    width: 100vw;
+    background-image: url("/media/4ipb4ap5/monkey-serious.jpg");
+    height: 800px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
