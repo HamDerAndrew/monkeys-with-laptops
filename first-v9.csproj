@@ -31,6 +31,12 @@
         <Compile Include="umbraco/models/**" Exclude="**/*.flag" />
     </ItemGroup>
 
+
+
+    <ItemGroup>
+      <Folder Include="umbraco\models\" />
+    </ItemGroup>
+
     <PropertyGroup>
         <CopyRazorGenerateFilesToPublishDirectory>true</CopyRazorGenerateFilesToPublishDirectory>
     </PropertyGroup>
